@@ -1,5 +1,5 @@
 # korean Formal Converter Using Deep Learning
-한국어에서 반말(informal)을 존댓말(formal)로 바꿔주는 변환기(converter) 입니다.
+한국어에서 반말(informal)을 존댓말(formal)로 바꿔주는 변환기(converter) 입니다. <br>
 *존댓말 데이터셋에서는 "해요체"와 "합쇼체" 두 종류가 존재했습니다, 하지만 본 모델은 "해요체"로 통일하여 변환하는 모델입니다.
 
 ## 한국어 존댓말 변환기
