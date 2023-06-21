@@ -14,7 +14,7 @@
 
 ## 한국어 존댓말 변환기
 - 존댓말 변환기는 T5모델 아키텍쳐를 기반으로한 Text2Text generation Task를 수행함으로 반말을 존댓말로 변환하여 사용할 수 있습니다.
-- 바로 사용하실 분들은 밑에 예제 코드 참고해서 모델('j5ng/et5-formal-convertor') 다운받아 사용하실 수 있습니다.
+- 바로 사용하실 분들은 밑에 예제 코드 참고해서 huggingFace 모델('j5ng/et5-formal-convertor') 다운받아 사용하실 수 있습니다.
 
 ## Base on PLM model(ET5)
  - ETRI(https://aiopen.etri.re.kr/et5Model)
