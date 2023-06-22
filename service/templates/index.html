@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국어 존댓말 변환기</title>
+    <link rel="stylesheet" href="{{ url_for('static' ,path='/css/styles.css') }}">
+</head>
+<body>
+    <h1>한국어 존댓말 변환기</h1>
+    <form action="/" method="post">
+        <label for="sentence">입력 문장:</label>
+        <textarea id="sentence" name="sentence" rows="5">{{ sentence }}</textarea>
+        <div class="button-group">
+            <input type="submit" value="변환">
+            <button type="button" onclick="clearTextarea()">클리어</button>
+        </div>
+    </form>
+    {% if converted %}
+    <div class="output">
+        <p> {{ converted }}</p>
+    </div>
+    {% endif %}
+    <script src="{{ url_for('static', path='/js/scripts.js') }}"></script>
+</body>
+</html>
